@@ -18,4 +18,4 @@ tester_sol : $(SOLOBJS) tester.o
 	gcc $^ -o $@
 
 clean :
-	rm $(OBJS) tester tester_sol
+	rm -f $(OBJS) tester tester_sol
