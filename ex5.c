@@ -38,10 +38,10 @@ int ex5(node* curr)
 {
     node* next;
     long currValue;
-    if(curr == NULL) return 1;
+    if(curr == 0) return 1;
     do {
         next = curr->next;
-        if(next == NULL) return 1;
+        if(next == 0) return 1;
         currValue = curr->value;
         curr = next;
     } while(currValue <= next->value);
